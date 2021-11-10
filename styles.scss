@@ -4,7 +4,7 @@ body{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  background: url(./assets/image/space.jpg);
+  background: url(./assets/image/space.jpg) no-repeat center fixed;
 }
 
 .calculator__grid{
@@ -36,10 +36,16 @@ body{
 .two{
   grid-column: span 2;
 }
+.display-1, .display-2{
+  margin: 10px;
+  font-size: 1.5rem;
+  color: $font-color;
+}
 
 .output{
   grid-column: 1 / -1;
   background-color: $secondary-color;
+  border: 1px solid $font-color;
   display: flex;
   align-items: flex-end;
   justify-content: space-between;
@@ -47,11 +53,6 @@ body{
   border-radius: 10px 10px 0 0;
 }
 
-.previous__operand, .current__operand{
-  margin: 10px;
-  font-size: 1.5rem;
-  color: $font-color;
-}
 
 @media screen and (min-width: 768px) {
   .calculator__grid{
@@ -66,9 +67,9 @@ body{
     }
   }
 
-  .previous__operand, .current__operand{
+  .display1, .display2{
     margin: 10px;
-    font-size: 2.5rem;
+    font-size: 3.5rem;
     color: $font-color;
   }
   
