@@ -51,10 +51,6 @@ body {
   border-radius: 10px 10px 0 0;
 }
 
-.temp-result {
-  color: #fff;
-}
-
 @media screen and (min-width: 768px) {
   .calculator__grid {
     min-height: 100vh;
@@ -67,7 +63,7 @@ body {
     background-color: grey;
   }
 
-  .display1, .display2 {
+  .display-1, .display-2 {
     margin: 10px;
     font-size: 3.5rem;
     color: #efefef;
