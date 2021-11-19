@@ -1,5 +1,7 @@
 # calculator
 
+## The design :large_red_circle:
+
 My calculator can perform the 
 
 Started off with query selectors to and my variables.
