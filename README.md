@@ -1,5 +1,5 @@
 # calculator
-
+https://user-images.githubusercontent.com/76491107/142621853-34288083-486e-4ec4-b818-0920bbc0bcf2.PNG
 My calculator can perform the 
 
 Started off with query selectors to and my variables.
