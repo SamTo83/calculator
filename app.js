@@ -74,10 +74,7 @@ equal.addEventListener('click', (e)=> {
 // Delete button operator
 del.addEventListener('click', (e) => {
   display2.innerText = display2.innerText.slice(0, -1);
-  
 
-  // displayNum1 = '';
-  // displayNum2 = result;
 })
 // To able to use clear button and delete all input and set display back to zero
 clear.addEventListener('click', (e) => {
