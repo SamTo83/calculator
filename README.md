@@ -1,7 +1,7 @@
+<<<<<<< HEAD
 # JavaScript Calculator :iphone:
 [Check out the Live Demo Here](https://samto83.github.io/calculator/)
 
-![js-calculator]()
 
 ## The Design :
 The Calculator was designed with a **mobile-first approach**, using a _css-grid_ layout and styled with a moon theme imagery.
