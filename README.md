@@ -1,12 +1,13 @@
 <<<<<<< HEAD
-# JavaScript Calculator :iphone:
+# JavaScript Calculator 
 [Check out the Live Demo Here](https://samto83.github.io/calculator/)
 
+![Calculator](https://github.com/SamTo83/calculator/blob/main/calculator.PNG)
 
-## The Design :
+## The Design:
 The Calculator was designed with a **mobile-first approach**, using a _css-grid_ layout and styled with a moon theme imagery.
 
-## The Logic :
+## The Logic:
 The calculator consists of:
 - _A display section_ where users will be able to see the operations and their result
 - _6 Operators:_ Addition, Subtraction, Multiplication, Division, Percentage, 
@@ -17,7 +18,7 @@ The calculator consists of:
     - _Dot (.) button_ to allow user to use decimal units
     - _AC_ button to activate the function All Clear and allow user to reset the calculator
 
-## The Code :
+## The Code:
 A function has been created to allow user to click on any operator to calculate the value.
 
 ``` function mathOperation(){
